@@ -1,10 +1,6 @@
 (ns algorithms.warmup.plus-minus-test
   (:require [clojure.test :refer :all]
-            [algorithms.warmup.plus-minus :refer :all]
-            [clojure.test.check.clojure-test :refer [defspec]]
-            [clojure.test.check :as tc]
-            [clojure.test.check.generators :as gen]
-            [clojure.test.check.properties :as prop]))
+            [algorithms.warmup.plus-minus :refer :all]))
 
 (deftest checking-valid-example
  (testing "An example from HackerRank"

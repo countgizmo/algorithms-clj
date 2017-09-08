@@ -16,3 +16,7 @@
  (let [len (count v)
        nums (count-nums v)]
   (map #(format-fraction (/ % len)) nums)))
+
+(defn print-result [v]
+ (doseq [item (calculate-fractions v)]
+  (println item)))
