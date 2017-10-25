@@ -10,7 +10,6 @@
  (testing "Our algorithm works according to HackerRank"
    (is (= 2 (calculate [3 2 1 3])))))
 
-
 (deftest should-return-0-when-empty-input
  (testing "When there is nothing to calculate return 0"
    (is (= 0 (calculate [])))))
